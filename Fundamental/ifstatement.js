@@ -31,3 +31,12 @@ if (nilai >= 90 && nilai <= 100) {
 const umberela = true;
 const rain = umberela ? "bawa payung" : "tidak usah bawa payung";
 console.log(rain)
+
+const sumValue = 80;
+const valueA = 70;
+const lolos = valueA >= sumValue ? "anda lolos" : "anda tidak lolos";
+console.log(lolos)
+/**
+ * jadi ketika si valueA kurang dari sumValue maka dia tidak lolos 
+ * dan jika valueA lebih besar dari sumValue maka ia lolos
+ */
