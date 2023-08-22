@@ -7,7 +7,7 @@
     !->String Template digunakan untuk menggabungkan kalimat dengan tanda(`...`)
     !->String Concatation untuk menggabungkan kalimat dengan operator (+)
  *Boolean berupa true and false
-
+   !->Biasa digunakan untuk validasi atau pengambilan keputusan dalam sebuah program
 */
 
 //EXAMPLE USE
@@ -24,3 +24,9 @@ console.log(`Hallo nama saya ${name} dan umur saya ${age}`)
 //!String Concatation
 let ageName = age + ' ' + name;
 console.log(ageName)
+
+//!Boolean
+const heightA = 170;
+const heightB = 160;
+const finalHeight = heightA > heightB;
+console.log(finalHeight)  //true
