@@ -21,7 +21,7 @@ if (nilai >= 90 && nilai <= 100) {
     //! ketika nilai tidak ada pada statement maka outputnya ini
     console.log('Silahkan coba lagi tahun depan');
 }
-
+sw
 /*
 ! ternary operator 
     *sama seperti ifelse namun ia shortcut dari ECMA6 untuk mengambil keputusan jika 
