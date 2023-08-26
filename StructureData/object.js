@@ -39,10 +39,8 @@ const data =
     age: 24,
     isWork: "Barista"
 }
-
 for (const prop in data) {
     const key = prop
     const value = data[prop]
-
     console.log(`Key : ${key}, Value : ${value}`)
 }
