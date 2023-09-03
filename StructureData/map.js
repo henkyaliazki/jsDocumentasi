@@ -48,19 +48,21 @@ console.log(resultAdd)
     Buatlah sebuah fungsi yang menerima array dari objek berisi data nama 
     lengkap dan mengembalikan array baru yang berisi inisial dari setiap nama.
 */
-const convertToInisial = (inArr) => {
-    const intialArr = inArr.map(nameObj => {
-        const names = nameObj.fullName.split(' ');
-        const resultConvert = names.map(name => name[0]).join('')
+const initialValue = (inArr) => {
+    //kita ubah element arr jadi object
+    const getName = inArr.map(objName => {
+        //kita ambil value dan jadikan dua string
+        const getValue = getName.fullName.split(' ');
+        //ambil setiap index 0 dari dua string dan gabungkan
+        const resultConvert = getValue.map(getValues => getValues[0]).join('')
         return resultConvert;
     })
-    return intialArr
+    return getName;
 }
 const input = [
     { fullName: 'John Doe' },
     { fullName: 'Jane Smith' },
     { fullName: 'Michael Johnson' }
 ];
-
-const output = convertToInisial(input);
+const output = initialValue(input)
 console.log(output)
