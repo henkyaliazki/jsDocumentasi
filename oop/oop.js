@@ -98,6 +98,7 @@ class Bus {
         this.#rangkaNumber = this.#generateNumber();
     }
     get rangkaNumber() {
+
         return this.#rangkaNumber
 
     }
